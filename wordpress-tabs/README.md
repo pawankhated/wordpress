@@ -5,7 +5,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/pawankhated/">
-    <!-- <img src="images/logo.png" alt="Logo" width="80" height="80"> -->
+    <img src="assets/images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Custom Post with Category Tabs</h3>
