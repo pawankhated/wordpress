@@ -1,6 +1,6 @@
 .tab-content{
 display: none;
-        }
+}
 .tab-content.current{
 display: inherit;
         }
