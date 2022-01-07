@@ -64,7 +64,7 @@ $args = array(
     'menu_position' => null, 
     'supports' => array('title','editor','thumbnail') 
 );   
-register_post_type( 'portfolio' , $args ); 
+register_post_type( 'portfolio' , $args); 
 register_taxonomy("categories", array("portfolio"), array("hierarchical" => true, "label" => "Categories", "singular_label" => "Category", "rewrite" => array( 'slug' => 'portfolio', 'with_front'=> false )));
 }
 add_action('init', 'portfolio_register');
