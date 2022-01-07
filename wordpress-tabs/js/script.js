@@ -4,8 +4,6 @@
 	    jQuery('ul.tabs li').removeClass('current');
 	    jQuery('.tab-content').removeClass('current');
 	    jQuery(this).addClass('current');
-	    setTimeout(function() {
 	      jQuery("#"+tab_id).addClass('current');
-	}, 100);
-    })
+    });
 });
